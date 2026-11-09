@@ -1,0 +1,36 @@
+@startuml
+title UC-01 Ask Course-Related Questions (analysis sequence)
+skinparam monochrome true
+skinparam shadowing false
+actor Student
+boundary AssistantInterface
+control QuestionAnswerer
+entity Course
+entity CourseMaterial
+entity Question
+entity Answer
+
+Student -> AssistantInterface : 1 selects a course
+AssistantInterface -> QuestionAnswerer : 2.1 passes on the chosen course
+QuestionAnswerer -> Student : 2.2 checks the student is enrolled in the course
+QuestionAnswerer -> AssistantInterface : 2.3 confirms the selected course
+AssistantInterface -> Student : 2.4 shows the course and invites a question
+Student -> AssistantInterface : 3 submits a question about the course
+AssistantInterface -> QuestionAnswerer : 4.1 passes on the question
+QuestionAnswerer -> Question : 4.2 records the question for the course
+QuestionAnswerer -> Course : 4.3 asks for material relevant to the question
+Course -> CourseMaterial : 4.4 looks up its matching material
+alt material supports an answer
+  QuestionAnswerer -> Answer : 4.5 forms an answer from the material, noting its source
+  QuestionAnswerer -> AssistantInterface : 4.6 hands over the answer and its source
+  AssistantInterface -> Student : 4.7 shows the answer with its source reference
+  Student -> AssistantInterface : 5 asks to examine the supporting material
+  AssistantInterface -> QuestionAnswerer : 6.1 passes on the request
+  QuestionAnswerer -> Answer : 6.2 asks for the source the answer is based on
+  QuestionAnswerer -> AssistantInterface : 6.3 hands over the located material
+  AssistantInterface -> Student : 6.4 shows the source and confirms it was located
+else A1 material does not support an answer
+  QuestionAnswerer -> AssistantInterface : A1.1 reports that the material is insufficient
+  AssistantInterface -> Student : A1.2 explains that no answer is supported
+end
+@enduml

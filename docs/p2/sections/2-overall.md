@@ -10,7 +10,7 @@ Proposed survey (anonymous, voluntary, with no names or student IDs): (1) How of
 
 Evidence status: the survey is not completed in the available evidence; no responses or aggregate results have been supplied in this contribution. The stakeholder needs above remain assumptions supported by the project's intended scope, not validated student findings. No sample size, response counts, percentages or usefulness score is claimed. Validation would require actual anonymized aggregate results and a documented collection method. A convenience sample of classmates would be exploratory, not representative of all students. The P1 stakeholder-evidence issue remains open.
 
-## 2.4 Feasibility update
+## 2.6 Feasibility summary
 
 Technical feasibility — implementation evidence exists; independent runtime validation and production readiness remain unverified. [Prototype commit b5c18f7](https://github.com/azghier1/Ai-Agent/commit/b5c18f7) adds the agent and Moodle adapter; [commit 347886c](https://github.com/azghier1/Ai-Agent/commit/347886c) adds the web chat and Moodle bubble. The [Docker configuration](https://github.com/azghier1/Ai-Agent/blob/20f021ff8db8a4827aeb2d1a4ac3ee82ff94abbf/docker-compose.yml) specifies Moodle 5.3 and PostgreSQL. The adapter implements course and assignment retrieval and the agent exposes seven read-only tools. These are code and configuration evidence; this contribution does not provide an independently reproduced end-to-end demo log.
 

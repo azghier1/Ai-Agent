@@ -129,5 +129,3 @@ The following review records checks made against the P1 use cases, the expanded 
 | UC-04 | Exception flows must be described. | No detailed exception flows were available in the P1 document. | Added insufficient-material, retrieval-failure, unauthorized-course, and graded-work-request alternatives. |
 | All three | Analysis steps must avoid implementation details. | References to internal retrieval and processing appeared in the P1 scenarios. | Rephrased the interactions in terms of student requests and observable responses. |
 | All three | Every analyzed use case must trace to functional requirements. | Inconsistent UC-04/UC-05 identifiers appeared in the P1 traceability matrix. | Used the consolidated Section 3.4 numbering and included functional requirement references for each expanded use case. |
-
-The cross-author domain-model and sequence-diagram checks belong to Section 5.3 and must be completed after Omor and Daniel finish their models.
