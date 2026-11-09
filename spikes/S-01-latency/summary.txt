@@ -1,0 +1,8 @@
+S-01 run 2026-11-08 21:11
+requests: 100, concurrent: 20, succeeded: 100, failed: 0
+p50: 8.59 s
+p95: 13.26 s
+max: 14.52 s
+within 5 s: 0/100 (0%)
+QAS-01 target (95% within 5 s): NOT MET
+total wall time: 69 s
