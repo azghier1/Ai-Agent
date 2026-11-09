@@ -1,0 +1,101 @@
+request,batch,question,seconds,ok,tool_calls
+1,1,What's due this week?,10.43,True,3
+2,1,Am I missing anything?,11.94,True,3
+3,1,How am I doing in CS101?,13.2,True,3
+4,1,What's the late policy?,7.45,True,3
+5,1,What are the Lab 1 instructions?,10.21,True,3
+6,1,Any new announcements?,9.61,True,3
+7,1,What is a loop counter?,7.26,True,0
+8,1,When are office hours?,8.8,True,3
+9,1,What's in the Week 2 notes?,8.0,True,3
+10,1,What is my grade on the Python Basics Check?,7.69,True,2
+11,1,What's due this week?,12.69,True,3
+12,1,Am I missing anything?,11.26,True,3
+13,1,How am I doing in CS101?,12.35,True,3
+14,1,What's the late policy?,7.67,True,3
+15,1,What are the Lab 1 instructions?,9.49,True,3
+16,1,Any new announcements?,9.84,True,3
+17,1,What is a loop counter?,6.45,True,0
+18,1,When are office hours?,7.8,True,3
+19,1,What's in the Week 2 notes?,8.8,True,3
+20,1,What is my grade on the Python Basics Check?,7.38,True,2
+21,2,What's due this week?,13.6,True,4
+22,2,Am I missing anything?,9.57,True,3
+23,2,How am I doing in CS101?,13.1,True,3
+24,2,What's the late policy?,5.44,True,2
+25,2,What are the Lab 1 instructions?,11.27,True,3
+26,2,Any new announcements?,8.85,True,3
+27,2,What is a loop counter?,6.12,True,0
+28,2,When are office hours?,6.05,True,3
+29,2,What's in the Week 2 notes?,6.81,True,3
+30,2,What is my grade on the Python Basics Check?,6.62,True,2
+31,2,What's due this week?,12.82,True,4
+32,2,Am I missing anything?,11.27,True,3
+33,2,How am I doing in CS101?,12.42,True,3
+34,2,What's the late policy?,6.05,True,2
+35,2,What are the Lab 1 instructions?,9.43,True,3
+36,2,Any new announcements?,9.01,True,3
+37,2,What is a loop counter?,5.67,True,0
+38,2,When are office hours?,6.18,True,3
+39,2,What's in the Week 2 notes?,7.59,True,3
+40,2,What is my grade on the Python Basics Check?,6.16,True,2
+41,3,What's due this week?,14.52,True,4
+42,3,Am I missing anything?,9.67,True,3
+43,3,How am I doing in CS101?,12.41,True,3
+44,3,What's the late policy?,5.28,True,2
+45,3,What are the Lab 1 instructions?,9.66,True,3
+46,3,Any new announcements?,8.66,True,3
+47,3,What is a loop counter?,6.06,True,0
+48,3,When are office hours?,5.21,True,3
+49,3,What's in the Week 2 notes?,6.48,True,3
+50,3,What is my grade on the Python Basics Check?,6.55,True,2
+51,3,What's due this week?,13.32,True,4
+52,3,Am I missing anything?,9.66,True,3
+53,3,How am I doing in CS101?,12.41,True,3
+54,3,What's the late policy?,5.46,True,2
+55,3,What are the Lab 1 instructions?,9.66,True,3
+56,3,Any new announcements?,8.46,True,3
+57,3,What is a loop counter?,5.84,True,0
+58,3,When are office hours?,6.21,True,3
+59,3,What's in the Week 2 notes?,8.42,True,3
+60,3,What is my grade on the Python Basics Check?,6.44,True,2
+61,4,What's due this week?,9.17,True,3
+62,4,Am I missing anything?,10.39,True,3
+63,4,How am I doing in CS101?,13.26,True,3
+64,4,What's the late policy?,6.57,True,3
+65,4,What are the Lab 1 instructions?,9.03,True,3
+66,4,Any new announcements?,8.89,True,3
+67,4,What is a loop counter?,5.6,True,0
+68,4,When are office hours?,6.65,True,3
+69,4,What's in the Week 2 notes?,7.45,True,3
+70,4,What is my grade on the Python Basics Check?,6.49,True,2
+71,4,What's due this week?,11.76,True,3
+72,4,Am I missing anything?,10.18,True,3
+73,4,How am I doing in CS101?,11.72,True,3
+74,4,What's the late policy?,5.63,True,2
+75,4,What are the Lab 1 instructions?,10.21,True,3
+76,4,Any new announcements?,8.89,True,3
+77,4,What is a loop counter?,5.57,True,0
+78,4,When are office hours?,6.13,True,3
+79,4,What's in the Week 2 notes?,7.26,True,3
+80,4,What is my grade on the Python Basics Check?,7.21,True,2
+81,5,What's due this week?,14.44,True,4
+82,5,Am I missing anything?,10.45,True,3
+83,5,How am I doing in CS101?,11.53,True,3
+84,5,What's the late policy?,5.59,True,2
+85,5,What are the Lab 1 instructions?,10.44,True,3
+86,5,Any new announcements?,8.52,True,3
+87,5,What is a loop counter?,5.44,True,0
+88,5,When are office hours?,6.76,True,3
+89,5,What's in the Week 2 notes?,7.67,True,3
+90,5,What is my grade on the Python Basics Check?,7.82,True,2
+91,5,What's due this week?,11.05,True,3
+92,5,Am I missing anything?,9.52,True,3
+93,5,How am I doing in CS101?,12.97,True,3
+94,5,What's the late policy?,6.88,True,3
+95,5,What are the Lab 1 instructions?,10.62,True,3
+96,5,Any new announcements?,9.19,True,3
+97,5,What is a loop counter?,6.14,True,0
+98,5,When are office hours?,6.71,True,3
+99,5,What's in the Week 2 notes?,7.13,True,3
+100,5,What is my grade on the Python Basics Check?,6.78,True,2
